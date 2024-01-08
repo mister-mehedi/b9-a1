@@ -1,0 +1,103 @@
+/* Common styles */
+body {
+  font-family: 'Inter', sans-serif;
+  max-width: 1300px;
+  margin: 0px auto;
+}
+
+.btn-primary {
+  border-radius: 8px;
+  background: #F00;
+  color: white;
+}
+
+.intro,
+.welcome,
+main section {
+  margin-top: 120px;
+}
+
+/* Header styles */
+.intro {
+  background-image: url('../resources/Banner Image.png');
+
+  width: 1320px;
+  height: 600px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+}
+
+.header-title {
+  color: #FFF;
+  font-family: Merriweather;
+  padding-top: 177px;
+  text-align: center;
+}
+
+#gretting {
+  font-size: 32px;
+}
+
+#sub-greeting {
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+}
+
+.welcome {
+  background-image: url(../resources/Vectorrr.png);
+  background-repeat: no-repeat;
+
+  width: 1320px;
+  height: 600px;
+  flex-shrink: 0;
+  fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+
+.welcome-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.welcome-title {
+  width: 642px;
+  color: #FFF;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+  padding-left: 126px;
+  padding-top: 126px;
+}
+
+.welcome-des {
+  width: 697px;
+  color: rgba(255, 255, 255, 0.80);
+  font-family: Inter;
+  font-size: 18px;
+  line-height: 30px;
+  padding-left: 126px;
+}
+
+.welcome-btn {
+  padding-left: 158px;
+  padding-bottom: 142px;
+}
+
+#welcome-pic {
+  display: flex;
+  width: 319.83px;
+  height: 464.662px;
+  padding: 0.008px 0px 0px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  padding-top: 67px;
+  padding-right: 138px;
+  padding-bottom: 67px;
+}
+
+/* Main styles */
