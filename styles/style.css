@@ -331,6 +331,10 @@ footer {
   /* padding-left: 12px; */
 }
 
+.gift-pic:hover {
+  border: 2px solid black;
+}
+
 .subscribe {
   width: 1320px;
   height: 616px;
