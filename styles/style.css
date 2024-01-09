@@ -371,20 +371,37 @@ footer {
 .sub-input {}
 
 #sub-text {
-  width: 428px;
+  color: rgba(7, 2, 17, 0.30);
+  /* text-align: center; */
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+
+  width: 648px;
   height: 72px;
-  flex-shrink: 0;
+  /* flex-shrink: 0; */
 
   border-radius: 50px;
+  border: 0;
   background: #FFF;
+  padding-right: 50px;
+  padding-left: 30px;
 }
 
 #sub-submit {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+
+  margin-left: -215px;
   width: 210px;
-  height: 72px;
-  flex-shrink: 0;
+  height: 74px;
+  /* flex-shrink: 0; */
 
   border-radius: 0px 50px 50px 0px;
+  border: 0;
   background: #F00;
 }
 
