@@ -1,37 +1,50 @@
 /* Common styles */
 body {
   font-family: 'Inter', sans-serif;
+  /* max-width: 1300px; */
+  /* margin: 0px auto; */
+}
+
+header,
+main {
   max-width: 1300px;
   margin: 0px auto;
 }
 
 .btn-primary {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
   border-radius: 8px;
   background: #F00;
   color: white;
+  padding: 16px 32px;
+  border: 0;
+  text-transform: uppercase;
 }
 
 .intro,
+.leaflet,
 .welcome,
-main section {
+main section,
+footer {
   margin-top: 120px;
 }
 
 /* Header styles */
 .intro {
-  background-image: url('../resources/Banner Image.png');
-
   width: 1320px;
   height: 600px;
   flex-shrink: 0;
   border-radius: 16px;
   /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+  background: linear-gradient(80deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url("../resources/Banner Image.png");
 }
 
 .header-title {
   color: #FFF;
   font-family: Merriweather;
-  padding-top: 177px;
+  padding-top: 150px;
   text-align: center;
 }
 
@@ -43,6 +56,31 @@ main section {
   font-size: 72px;
   font-weight: 900;
   line-height: 95px;
+}
+
+.leaflet {
+  text-align: center;
+}
+
+#leaflet-index1 {
+  color: #F00;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+}
+
+#leaflet-index2 {
+  color: #F00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+#leaflet-index3 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
 }
 
 .welcome {
@@ -101,3 +139,320 @@ main section {
 }
 
 /* Main styles */
+.event {
+  width: 1320px;
+  height: 482px;
+  flex-shrink: 0;
+  border-radius: 16px;
+
+  /* background-color: aquamarine; */
+  /* fill: linear-gradient(45deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%); */
+  background: linear-gradient(pink, white);
+}
+
+.event-info {
+  text-align: center;
+  padding-top: 100px;
+}
+
+#event-location-info {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+
+.event-index {
+  color: #F00;
+  /* text-align: center; */
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+
+.offer {
+  width: 1320px;
+  height: 400px;
+  /* background: #FFF; */
+  /* background-color: aquamarine; */
+}
+
+.offer-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.offer-info-column {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#ellipse-pic {
+  width: 350px;
+
+  border: 15px solid #F00;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.offer-info-title {
+  color: #F00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+#offer-info-title-tiny {
+  color: #F00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+#offer-index {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.offer-info-des {
+  width: 393px;
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  /* 160% */
+}
+
+.sale {
+  width: 1320px;
+  height: 1200px;
+  /* background: #FFF; */
+  /* background-color: aquamarine; */
+}
+
+.sale-info {
+  text-align: center;
+}
+
+
+#sale-info-title-tiny {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+#sale-index-red {
+  color: #F00;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+#sale-index-black {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+#sale-info-des {
+  width: 1300px;
+  color: rgba(7, 2, 17, 0.60);
+}
+
+.sale-info-des {
+  width: 1300px;
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.gift {
+  width: 1320px;
+  height: 1200px;
+  /* background: #FFF; */
+  /* background-color: aquamarine; */
+}
+
+#gift-info-tiny {
+  color: #F00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+#gift-index {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.gift-info-des {
+  width: 896px;
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  /* 160% */
+}
+
+.gift-pic-container1 {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.gift-pic-container2 {
+  display: flex;
+  gap: 24px;
+}
+
+.gift-pic {
+  width: 424px;
+  height: 450px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  /* padding-left: 12px; */
+}
+
+.subscribe {
+  width: 1320px;
+  height: 616px;
+  flex-shrink: 0;
+
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+
+  text-align: center;
+  padding-top: 140px;
+}
+
+#mail-icon {
+  width: 150px;
+  height: 150px;
+  flex-shrink: 0;
+}
+
+.subscribe-title {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.subscribe-des {
+  width: 1320px;
+  color: rgba(7, 2, 17, 0.60);
+  /* text-align: center; */
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.sub-input {}
+
+#sub-text {
+  width: 428px;
+  height: 72px;
+  flex-shrink: 0;
+
+  border-radius: 50px;
+  background: #FFF;
+}
+
+#sub-submit {
+  width: 210px;
+  height: 72px;
+  flex-shrink: 0;
+
+  border-radius: 0px 50px 50px 0px;
+  background: #F00;
+}
+
+/* Fotter */
+footer {
+  width: 1225px;
+  height: 609px;
+  flex-shrink: 0;
+  background: #180326;
+  color: white;
+
+  padding: 120px 140px;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 50px;
+}
+
+.social-links {
+  text-align: center;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.footer-info .address p {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.footer-info .contact a {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: white;
+}
+
+.contact img {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.footer-info .address {
+  padding-bottom: 50px;
+}
+
+.footer-info .contact {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+hr {
+  height: 1px;
+  background: white;
+}
